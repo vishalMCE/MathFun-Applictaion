@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game9">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="आओ एक बार फिर तीन अंकों वाली संख्या के साथ खेले"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="स्टेप 1 : तीन अंकों की संख्या के बारे में सोचें\n\nउदाहरण:-\n123\n\nस्टेप 2 : इसे 7 से गुणा करें\n\nउदाहरण:-\n123 X 7 = 861\n\nस्टेप 3 : इसे 11 से गुणा करें\n\nउदाहरण:-\n861 X 11 = 9471\n\nस्टेप 4 : इसे 13 से गुणा करें\n\nउदाहरण:-\n9471 X 13 = 123123\n\nध्यान दें : किसी भी 3 अंकों संख्या को 7 ,11 और 13 से गुणा करोगे तो वो संख्या दो बार रदोहराती मिलेगी"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="अज्ञान ईश्वर का अभिशाप है; ज्ञान वह पंख है जिससे हम स्वर्ग में जाते हैं।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

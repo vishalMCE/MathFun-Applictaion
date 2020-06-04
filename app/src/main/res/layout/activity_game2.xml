@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game2">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="इस गेम में आपका दिमाग पढ़ने की कोशिश की जाएगी\n\n\nस्टेप 1 : दो नंबर वाली सख्या सोचे और इसमें एक कंडीशन है, कंडीशन यह हे की दोनों नंबर शेम नहीं होना चाइये\n\nउदाहरण:-\n\n16\n\nस्टेप 2 : अपने जो नंबर सोचा हे उसे पलट दे\n\nउदाहरण:-\n\n61\n\nस्टप 3 : बड़े वाले नंबर को छोटे वाले नंबर से घटा दे\n\nउदाहरण:-\n\n61-16=45\n\nध्यान दें : अगर आपके पास सिंगल डिजिट आंसर आया हे तो उसे सिंगल डिजिट न रखे उसके पहले जीरो लगा दे\n\nस्टेप 5 : आपके पास जो नंबर आया हे उसे पलट दे\n\nउदाहरण:-54\n\nस्टेप 6 : दोनों नम्बरो को जोड़े\n\nउदाहरण:-\n\n45+54"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="अपना उत्तर जांचे"
+            android:padding="8dp"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#673AB7"
+            android:padding="16dp"
+            android:text="यदि आप असफल होते हैं, तो कभी हार न मानें क्योंकि असफल का अर्थ है सीखने में पहला प्रयास। : - ए.पी.जे अब्दुल कलाम द्वारा"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game10">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:text="इस गेम में हम एक सख्या के साथ खेलेंगे"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="स्टेप 1 : एक संख्या के बारे में सोचो\n\nउदाहरण:-\n1\n\nस्टेप 2 : इसे डबल करें\n\nउदाहरण:-\n1 X 2 = 2\n\nस्टेप 3 : इसमें 6 जोड़ें\n\nउदाहरण:-\n2 + 6 = 8\n\nस्टेप 4 : जो नंबर आया हे उसे आधा करे\n\nउदाहरण:-\n8 / 2 = 4\n\nस्टेप 5 : इसमें से मूल संख्या को हटा दें\n\nउदाहरण:-\n4 - 1 "
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="प्रेम ही एकमात्र बल है जो शत्रु को मित्र में बदलने में सक्षम है।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:text="अपना उत्तर जांचे"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

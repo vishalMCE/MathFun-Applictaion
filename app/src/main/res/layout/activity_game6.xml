@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game6">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="इस गेम में हम दो नंबरों के साथ खेलेंगे"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="स्टेप 1 : 2, 1- अंकों की संख्या के बारे में सोचें\n\nउदाहरण:-\nपहला नंबर :- 7\nदूसरा नंबर :- 8\n\nस्टेप 2 : उनमें से एक चुनें और इसे दोगुना करें\n\nउदाहरण:-\n7X2=14\n\nस्टेप 3 : परिणाम में 5 जोड़ें\n\nउदाहरण:-\n14+5=19\n\nस्टेप 4 : परिणाम को 5 से गुणा करें\n\nउदाहरण:-\n19X5=95\n\nस्टेप 5 : परिणाम में दूसरा नंबर जोड़ें\n\nउदाहरण:-\n95+8=103\n\nस्टेप 6 : 4 के साथ कुल घटाएँ\n\nउदाहरण:-\n103-4=99\n\nस्टेप 7 : 21 के साथ संख्या घटाएं\n\nउदाहरण:-\n99-21=78"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:text="अपना उत्तर जांचे"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="शिक्षा का पूरा उद्देश्य दर्पण को खिड़कियों में बदलना है।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

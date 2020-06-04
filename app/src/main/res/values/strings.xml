@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MathFun</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MathFun</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">About</string>
+    <string name="action_aboutDevloper">Developer</string>
+    <string name="action_importantLinks">Important Link</string>
+
+    <string name="developer">Vishal Singh\nvishalsingh79192@gmail.com\n\nशास्त्रीय संगीत : श्रीवास्तव</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_linkedIn">LinkedIn</string>
+    <string name="menu_twitter">Twitter</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_gamil">Email</string>
+    <string name="menu_youtube">Youtube</string>
+
+
+    <string name="link">IIT प्रोफेसर के वीडियो\n
+        <a href="https://nptel.ac.in/">https://nptel.ac.in/</a>\n\nविज्ञान किट\n
+        <a href="https://vigyanprasar.gov.in/">https://vigyanprasar.gov.in/</a>\n\nभाराती लिपि\n
+        <a href="https://www.bharatiscript.com/">https://www.bharatiscript.com/</a>\n\nविविज्ञान विकहावा\n
+        <a href="http://arvindguptatoys.com/">http://arvindguptatoys.com/</a>\n\nअच्छी तेलुगु कहानियाँ\n
+        <a href="https://kottapalli.in/">https://kottapalli.in/</a>\n\nअपने शैक्षिक प्रमाण पत्र रखें\n
+        <a href="https://digilocker.gov.in/">https://digilocker.gov.in/</a>
+<!--        \n\nनौकरियां\n-->
+<!--        <a href="http://employmentnews.gov.in/">http://employmentnews.gov.in/</a>-->
+    </string>
+
+
+    <string name="contact">Contact Us</string>
+    <string name="home_second">Home Second</string>
+</resources>

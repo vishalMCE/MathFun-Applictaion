@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game3">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:text="इस गेम में आपका नंबर का अनुमान लगाया जायेगा"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:text="स्टेप 1 : 1 से 9 की बिच एक नंबर चुने\n\nउदाहरण:-\n8\n\nस्टेप 2 : नंबर अपने चुना हे उसे 2 से गुणा करे\n\nउदाहरण:-\n8X2=16\n\nस्टेप 3 : गुणा किया हुए नंबर में 10 जोड़े\n\nउदाहरण:-\n16+10=26\n\nस्टेप 4 :  जो नंबर 10 जोड़ने के बाद आया हे उसे 2 से विभाजन करे\n\nउदाहरण:-\n26/2=13\n\nस्टेप 5 : इस नंबर से आपके द्वारा चुने गए नंबर को घटाएं\n\nउदाहरण:-\n13-8"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:text="अपना उत्तर जांचे"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="शिक्षा की जड़ें कड़वी हैं, लेकिन फल मीठा है।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

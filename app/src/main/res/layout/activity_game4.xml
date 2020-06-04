@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="20dp"
+            android:text="इस गेम में आपका नंबर का अनुमान लगाया जायेगा"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="स्टेप 1 : किसी भी संख्या के बारे में सोचो\n\nउदाहरण:-\n20\n\nस्टेप 2 : अपने नंबर में से 1 घटाएं\n\nउदाहरण:-\n20-1=19\n\nस्टेप 3 : परिणाम को 3 से गुणा करें\n\nउदाहरण:-\n19X3=57\n\nस्टेप 4 :  परिणाम में 12 जोड़ें\n\nउदाहरण:-\n57+12=69\n\nस्टेप 5 : उत्तर को 3 से भाग दें\n\nउदाहरण:-\n69/3=23\n\nस्टेप 6 : उत्तर में 5 जोड़ें\n\nउदाहरण:-\n23+5=28\n\nस्टेप 7 : आपके द्वारा सोचे गए नंबर को हटा दें\n\nउदाहरण:-\n28-20\n\nध्यान दें : आपके पास 1-अंकीय संख्या होनी चाहिए"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:text="अपना उत्तर जांचे"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintStart_toEndOf="@+id/textView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="शिक्षा सबसे शक्तिशाली हथियार है जिसका उपयोग आप दुनिया को बदलने के लिए कर सकते हैं।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

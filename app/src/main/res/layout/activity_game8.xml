@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="आओ एक बार फिर तीन अंकों वाली संख्या के साथ खेले"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="स्टेप 1 : 3 अंकों की संख्या के बारे में सोचो\n\nउदाहरण:-\n123\n\nस्टेप 2 : अवरोही क्रम में संख्या को व्यवस्थित करें\n\nउदाहरण:-\n321\n\nस्टेप 3 : संख्या को उल्टा करें और परिणाम के साथ घटाएं\n\nउदाहरण:-\n123\n321 - 123 = 198\n\nस्टेप 4 : इसे याद रखें और मन में उत्तर को उलट दें\n\nउदाहरण:-\n891\n\nस्टेप 5 : परिणाम के साथ इसे जोड़ें\n\nउदाहरण:-\n891 + 198 = 1089\n\nध्यान दें : आपको उत्तर हमेशा 1089 ही मिलेगा"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="हम केवल तभी जानते हैं जब हम थोड़ा जानते हैं, ज्ञान के साथ संदेह बढ़ता है।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

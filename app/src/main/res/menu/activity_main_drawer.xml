@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_play"
+            android:icon="@drawable/play"
+            android:title="@string/menu_play"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="@string/menu_share" />
+
+    </group>
+
+        <item android:title="@string/contact">
+            <menu>
+                <item
+                    android:id="@+id/nav_linkedIn"
+                    android:icon="@drawable/linkedin"
+                    android:title="@string/menu_linkedIn" />
+                <item
+                    android:id="@+id/nav_twitter"
+                    android:icon="@drawable/twitter"
+                    android:title="@string/menu_twitter" />
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@drawable/facebook"
+                    android:title="@string/menu_facebook" />
+                <item
+                    android:id="@+id/nav_gmail"
+                    android:icon="@drawable/gmail"
+                    android:title="@string/menu_gamil" />
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/youtube"
+                    android:title="@string/menu_youtube" />
+            </menu>
+        </item>
+
+</menu>

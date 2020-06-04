@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game7">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="इस गेम में आपकी उम्र का अनुमान लगाने की कोशिश की जाएगी"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_secondary_variant"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:padding="8dp"
+            android:text="स्टेप 1 : 1 और 10 के बीच की संख्या चुनें\n\nउदाहरण:-\n7\n\nस्टेप 2 : इसे 2 से गुणा करें\n\nउदाहरण:-\n7X2=14\n\nस्टेप 3 : इसमें 5 जोड़ें\n\nउदाहरण:-\n14+5=19\n\nस्टेप 4 : परिणाम को 50 से गुणा करें\n\nउदाहरण:-\n19X50=950\n\nस्टेप 5 : यदि आपका पहले से ही इस वर्ष जन्मदिन था, तो 1767 जोड़ें\n\nउदाहरण:-\n1767+950=2717\n\nया\n\nयदि आपके पास पहले से ही अपना जन्मदिन नहीं है, तो 1766 जोड़ेंजोड़ें\n\nउदाहरण:-\n1766+950=2716\n\nस्टेप 6 : अपने जन्म के वर्ष को कुल से घटाएं\n\nउदाहरण:-\n2717-2000=717\n\nध्यान दें : आपके पास 3 अंकों की संख्या होनी चाहिए\n\n\n\n पहला अंक आपके द्वारा चुनी गई संख्या है\n\nउदाहरण:-\n717 -> 7\n\nबचे हुए अंक आपकी उम्र हे\n\nउदाहरण:-\n717 -> 17"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@android:color/holo_purple"
+            android:padding="16dp"
+            android:text="यह जानने के लिए कि आप क्या जानते हैं और जो आप नहीं जानते हैं, वह सच्चा ज्ञान है।"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
